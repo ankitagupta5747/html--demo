@@ -1,2 +1,2 @@
 # html--demo
-my html practice and project
+my html practice and basic project
