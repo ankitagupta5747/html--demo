@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+</head>
+<body>
+    <form><h1>Registration form </h1></form>
+<HR>
+    <FORM ACTION="#">
+       
+        <!-- USING INPUT  -->
+        <H2>SIGN UP </H2>
+      <INPUT TYPE="email"placeholder="ENTER YOUR EMAIL">
+      </BR>
+        <INPUT TYPE="PASSWORD"PLACEHOLDER="ENTER PASSWORD">
+            <HR>
+                
+                <H2>PERSONAL INFORMATION </H2>
+                <INPUT TYPE="TEXT"PLACEHOLDER="ENTER YOUR NAME">
+                </br>
+                <INPUT TYPE="TEXT"PLACEHOLDER="ENTER YOUR father name">
+                </br>
+              <INPUT TYPE="TEXT"PLACEHOLDER="ENTER YOUR mother NAME">
+              </br>
+                <!-- using label -->
+                 <label  for ="dob">date of birth:</label>
+                 <input type="date"id="dob"name="dob">
+                 <br>  
+                 <!-- <label >is used to show the text    , type ='text'is used for create a text box, id =email connect the label to input,name="email "identifies the field when the form is submitted-->
+                    <label  for ="gender">gender:</label>
+                    <select id ="gender"id="gender">
+                    <option value="male">male</option>
+                     <option value="female">female</option>
+                      <option value="other">other</option>
+                     </select>
+                     <HR>
+                 <h2>contact information</h2>
+                 <label for="email">email address :</label>
+                 <input text ="email" id="email"name="email">
+                </br>
+                <label for="phone">phone number :</label>
+                 <input text ="tel" id="phone"name="phone">
+                </br>
+                 <label for="address">address</label>
+                 <textarea id ="address"name="adress" rows="4"cols="20"></textarea>  
+                </br>
+                  <label for ="city">city:</label>
+                 <input text="city"id="city"name="city"  >
+                  <label for ="state">state:</label>
+                 <input text="state"id="state"name="state"  >
+                  <label for ="pin code">pincode:</label>
+                 <input text="number"id="pin code"name="pincode"  >
+                 <hr>
+                 <h1>Academic information</h1>
+                 <label for ="course">course:</label>
+                 <select id="course"name="course">
+                    <option >btech</option>
+                    <option>bsc it</option>
+                    <option>bca</option>
+                 </select>
+                </br>
+                 <label for ="tenth">10 percentage/cgpa:</label>
+                 <input text="number"id="tenth"name="tenth" step="0.01">  
+                 <!-- for cgpa and percent we use step -->
+            </br>
+                  <label for ="twelve">12 percentage/cgpa:</label>
+                 <input text="number"id="twelve"name="twelve"step="0.01"> 
+                 <hr>
+                <H1>DECLERATION</H1>
+                 <INPUT TYPE="CHECKBOX"ID="DECLERATION "NAME="DECLERATION">
+                     <LABEL FOR ="DECLERATION">I CONIRM THAT THE INFORMATION PROVIDED IS CORECT</LABEL>
+                     <HR>
+                 <h1 >action</h1>
+                 <button type="submit">submit</button>
+                 <button type ="reset">reset</button>
+                 <hr>
+        </body>
+</html>

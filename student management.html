@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student management</title>
+</head>
+<body>
+    <header>
+        <h1> Student management</h1>
+        <!-- use of navigation menu  nav is used to help user to move from one page or section to other # is used to jump to a section on the same page -->
+        <nav>
+            <a href="# home">home</a>|
+             <a href="# registration">registration</a>|
+              <a href="# details">details</a>|
+               <a href="# academic">academic</a>|
+                <a href="#search">search</a>|
+                 <a href="# contact">contact</a>|
+        </nav>
+    </header>
+    <hr>
+<main>
+    <h2>MAIN CONTENT</h2>
+    <HR>
+        <H3> STUDENT Registration FORM</H3>
+        <LABEL FOR="NAME">full name</LABEL>
+        <INPUT TYPE="TEXT"ID="NAME"NAME="NAME">
+        </br>
+            <LABEL FOR ="ROLLNO">rollno.</LABEL>
+            <INPUT TYPE="NUMERIC" id="rollno"name="rollno">
+            </br>
+            <label for="email">email address :</label>
+                 <input type ="email" id="email"name="email">
+                </br>
+                <label for="phone">phone number :</label>
+                 <input type ="tel" id="phone"name="phone">
+                </br>
+                <label  for ="dob">date of birth:</label>
+                 <input type="date"id="dob"name="dob">
+                 <br> 
+                 <label for="gender">gender</label>
+                 <select id="gender"name="gender">
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                <option value="othere">other</option> 
+                 </select>
+                 </br> 
+                 <label for="course">course</label>
+                 <select id="courser"name="course">
+                    <option value="bca">bca</option>
+                    <option value="bsc it">bsc it</option>
+                <option value="btech">btech</option> 
+                </select>
+                 </br> 
+                  <label for="address">address</label>
+                 <textarea id ="address"name="adress" rows="4"cols="20"></textarea>  
+                <button type="submit">submit</button>
+                </br>
+                <hr>
+                <h3>student details table</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>name</th>
+                            <th>rollno</th>
+                            <th>course</th>
+                            <th>email</th>
+                            <th>phone</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                             <td>ankita</td>
+                             <td>4045</td>
+                             <td>btech cse aiml</td>
+                             <td>ankitagupta5747@gmail.com</td>
+                             <td>XXXXXXXX45</td>
+                         </tr>
+                    </tbody>
+                </table>
+                       <hr>  
+                       <h3>academic information</h3>   
+                       <label for ="tenth">10 percentage/cgpa:</label>
+                 <input text="number"id="tenth"name="tenth" step="0.01">  
+                 <!-- for cgpa and percent we use step -->
+            </br>
+                  <label for ="twelve">12 percentage/cgpa:</label>
+                 <input text="number"id="twelve"name="twelve"step="0.01">  
+                 </br>
+                 <label for ="current cgpa">current percentage/cgpa:</label>
+                 <input text="number"id="current cgpa"name="current cgpa"step="0.01"> 
+                </br>
+                <label for ="department">department:</label>
+                 <input text="text"id="department"name="department">   
+                 <hr>
+                 <h3>search student section</h3>
+                 <button type="search">search</button>
+                 <br>
+                 <input type="search" name="search" placeholder="Search here">
+                 <br>
+                <button type="submit">submit</button>
+                <hr>
+              </main>
+              <footer>
+                 <p>© 2026 Ankita Gupta. All Rights Reserved..</p>
+            <hr>
+              </footer>
+
+
+
+
+    
+</body>
+</html>
